@@ -26,7 +26,7 @@ public class CaixaController {
                 public void run() {
                     for (int j = 0; j < fichas_caixa; j++) {
                        caixa.registrarVendaFicha(valor_ficha);
-                       //view.exibeVendas(idCaixa);
+                       view.exibeVendas(idCaixa);
                     }
                 }
             }, "Thread-Caixa-" + idCaixa);
